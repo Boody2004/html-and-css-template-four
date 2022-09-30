@@ -1,3 +1,20 @@
+:root {
+  --blue: "#0075ff"
+  --blue-alt: "#0d69d5"
+  --orange: "#f59e0b"
+  --green: "#22c55e"
+  --red: "#f44336"
+  --grey: "#888"
+}
+
+/* Components */
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Components */
+
 /* Box  */
 .d-flex {
   display: flex;
@@ -8,7 +25,7 @@
 /* Box */
 
 /* Position */
-.p-position {
+.p-relative {
   position: relative;
 }
 /* Position */
@@ -34,6 +51,12 @@
 }
 /* Font */
 
+/* Width */
+.w-fill {
+  width: 100%;
+}
+/* Width */
+
 /* Margin */
 .m-20 {
   margin: 20px;
@@ -49,6 +72,9 @@
 }
 .p-10 {
   padding: 10px;
+}
+.p-15 {
+  padding: 15px;
 }
 .p-20 {
   padding: 20px;
