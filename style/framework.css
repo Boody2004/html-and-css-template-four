@@ -13,6 +13,10 @@
   align-items: center;
   justify-content: space-between;
 }
+.btn-shape {
+  padding: 4px 10px;
+  border-radius: 6px;
+}
 /* Components */
 
 /* Box  */
@@ -70,6 +74,9 @@
 .fs-14 {
   font-size: 14px;
 }
+.fs-15 {
+  font-style: 15px;
+}
 .text-center {
   text-align: center;
 }
@@ -122,6 +129,12 @@
   padding: 20px;
 }
 /* Padding */
+
+/* Border */
+.border-none {
+  border: none;
+}
+/* Border */
 
 /* Border Radius */
 .radius-6 {
