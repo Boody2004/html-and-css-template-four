@@ -8,6 +8,11 @@
 }
 
 /* Components */
+.center-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .between-flex {
   display: flex;
   align-items: center;
@@ -56,6 +61,12 @@
 .bg-blue {
   background-color: var(--blue);
 }
+.bg-orange {
+  background-color: var(--orange);
+}
+.bg-green {
+  background-color: var(--green);
+}
 /* Background Color */
 
 /* Color */
@@ -64,6 +75,9 @@
 }
 .text-black {
   color: #000;
+}
+.text-blue {
+  color: var(--blue);
 }
 .text-grey {
   color: var(--grey);
