@@ -40,6 +40,9 @@
 .gap-20 {
   gap: 20px;
 }
+.f-wrap {
+  flex-wrap: wrap;
+}
 .d-block {
   display: block;
 }
@@ -79,17 +82,35 @@
 .text-blue {
   color: var(--blue);
 }
+.text-orange {
+  color: var(--orange);
+}
+.text-green {
+  color: var(--green);
+}
+.text-red {
+  color: var(--red);
+}
 .text-grey {
   color: var(--grey);
 }
 /* Color */
 
 /* Font */
+.fs-13 {
+  font-size: 13px;
+}
 .fs-14 {
   font-size: 14px;
 }
 .fs-15 {
   font-style: 15px;
+}
+.fs-25 {
+  font-size: 25px;
+}
+.fw-bold {
+  font-weight: bold;
 }
 .text-center {
   text-align: center;
@@ -123,6 +144,9 @@
 }
 .mt-20 {
   margin-top: 20px;
+}
+.mb-5 {
+  margin-bottom: 5px;
 }
 .mb-20 {
   margin-bottom: 20px;
