@@ -181,6 +181,9 @@
 .radius-10 {
   border-radius: 10px;
 }
+.radius-fill {
+  border-radius: 50%;
+}
 /* Border Radius */
 
 /* list */
