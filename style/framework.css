@@ -1,10 +1,10 @@
 :root {
-  --blue: "#0075ff"
-  --blue-alt: "#0d69d5"
-  --orange: "#f59e0b"
-  --green: "#22c55e"
-  --red: "#f44336"
-  --grey: "#888"
+  --blue: "#0075ff";
+  --blue-alt: "#0d69d5";
+  --orange: "#f59e0b";
+  --green: "#22c55e";
+  --red: "#f44336";
+  --grey: "#888";
 }
 
 /* Components */
@@ -22,6 +22,18 @@
 .align-center {
   align-items: center;
 }
+.space-between {
+  justify-content: space-between;
+}
+.d-grid {
+  display: grid;
+}
+.gap-20 {
+  gap: 20px;
+}
+.d-block {
+  display: block;
+}
 /* Box */
 
 /* Position */
@@ -34,11 +46,23 @@
 .bg-white {
   background-color: #fff;
 }
+.bg-eee {
+  background-color: #eee;
+}
+.bg-blue {
+  background-color: var(--blue);
+}
 /* Background Color */
 
 /* Color */
+.text-white {
+  color: #fff;
+}
 .text-black {
   color: #000;
+}
+.text-grey {
+  color: var(--grey);
 }
 /* Color */
 
@@ -55,14 +79,32 @@
 .w-fill {
   width: 100%;
 }
+.w-fit {
+  width: fit-content;
+}
 /* Width */
 
 /* Margin */
+.m-0 {
+  margin: 0;
+}
 .m-20 {
   margin: 20px;
 }
 .mt-0 {
   margin-top: 0;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mb-20 {
+  margin-bottom: 20px;
 }
 /* Margin */
 
@@ -85,6 +127,9 @@
 .radius-6 {
   border-radius: 6px;
 }
+.radius-10 {
+  border-radius: 10px;
+}
 /* Border Radius */
 
 /* list */
@@ -92,3 +137,17 @@
   list-style: none;
 }
 /* list */
+
+/* Media */
+@media (max-width: 767px) {
+  .d-block-sm {
+    display: block;
+  }
+  .hide-sm {
+    display: none;
+  }
+  .text-center-sm {
+    text-align: center;
+  }
+}
+/* Media */
