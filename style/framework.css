@@ -129,6 +129,12 @@
 }
 /* Width */
 
+/* Hight */
+.h-full {
+  height: 100%;
+}
+/* Hight */
+
 /* Margin */
 .m-0 {
   margin: 0;
@@ -162,6 +168,9 @@
 }
 .mb-5 {
   margin-bottom: 5px;
+}
+.mb-10 {
+  margin-bottom: 10px;
 }
 .mb-20 {
   margin-bottom: 20px;
