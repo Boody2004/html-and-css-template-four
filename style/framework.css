@@ -70,6 +70,9 @@
 .bg-green {
   background-color: var(--green);
 }
+.bg-red {
+  background-color: var(--red);
+}
 /* Background Color */
 
 /* Color */
@@ -142,9 +145,16 @@
 .mt-10 {
   margin-top: 10px;
 }
+.mt-15 {
+  margin-top: 15px;
+}
 .mt-20 {
   margin-top: 20px;
 }
+.mr-15 {
+  margin-right: 15px;
+}
+
 .mt-25 {
   margin-top: 25px;
 }
@@ -184,6 +194,9 @@
 .pb-15 {
   padding-bottom: 15px;
 }
+.pl-15 {
+  padding-left: 15px;
+}
 /* Padding */
 
 /* Border */
@@ -198,6 +211,9 @@
 }
 .radius-10 {
   border-radius: 10px;
+}
+.radius-half {
+  border-radius: 50%;
 }
 .radius-fill {
   border-radius: 50%;

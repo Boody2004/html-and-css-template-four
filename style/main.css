@@ -389,5 +389,23 @@ a {
     background-color: #fff;
   }
 }
-
 /* Latest */
+
+/* Reminders */
+.reminders ul li .key {
+  width: 15px;
+  height: 15px;
+}
+.reminders ul li > .color-blue {
+  border-left: 2px solid var(--blue);
+}
+.reminders ul li > .color-orange {
+  border-left: 2px solid var(--orange);
+}
+.reminders ul li > .color-green {
+  border-left: 2px solid var(--green);
+}
+.reminders ul li > .color-red {
+  border-left: 2px solid var(--red);
+}
+/* Reminders */
