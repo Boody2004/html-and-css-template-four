@@ -565,6 +565,52 @@ a {
 .setting-page .social-boxes > div:focus-within i {
   color: #000;
 }
+.widgets-control .control input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.widgets-control .control label {
+  padding-left: 30px;
+  cursor: pointer;
+  position: relative;
+}
+.widgets-control .control label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  /* top: 50%; */
+  margin-top: -9;
+  border-radius: 5px;
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--grey);
+}
+.widgets-control .control label:hover::before {
+  border-color: var(--blue-alt);
+}
+.widgets-control .control label::after {
+  content: "\f00c";
+  font-family: var(--fa-style-family-classic);
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  border-radius: 5px;
+  margin-top: -11px;
+  background-color: blue;
+  color: #fff;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0) rotate(360deg);
+  transition: 0.3s;
+}
+.widgets-control .control input[type="checkbox"]:checked + label::after {
+  transform: scale(1);
+}
 .toggle-checkbox {
   -webkit-appearance: none;
   appearance: none;
