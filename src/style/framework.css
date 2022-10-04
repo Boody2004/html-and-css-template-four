@@ -220,6 +220,9 @@
 .border-none {
   border: none;
 }
+.border-ccc {
+  border: 1px solid #ccc;
+}
 /* Border */
 
 /* Border Radius */

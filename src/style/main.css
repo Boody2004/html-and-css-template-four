@@ -530,9 +530,14 @@ a {
   resize: none;
   min-height: 150px;
 }
+.setting-page .email {
+  display: inline-flex;
+  width: calc(100% - 80px);
+}
 .toggle-checkbox {
   -webkit-appearance: none;
   appearance: none;
+  display: none;
 }
 .toggle-switch {
   background-color: #ccc;
@@ -569,5 +574,4 @@ a {
   color: var(--blue-alt);
 }
 /* Setting */
-
 /* Setting Page */
