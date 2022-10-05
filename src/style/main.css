@@ -750,8 +750,6 @@ a {
   min-width: 250px;
   padding: 10px 0 0;
 }
-.profile-page .info-box h4 {
-}
 @media (max-width: 767px) {
   .profile-page .overview {
     flex-direction: column;
