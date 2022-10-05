@@ -235,10 +235,7 @@
 .radius-10 {
   border-radius: 10px;
 }
-.radius-half {
-  border-radius: 50%;
-}
-.radius-fill {
+.radius-full {
   border-radius: 50%;
 }
 /* Border Radius */
