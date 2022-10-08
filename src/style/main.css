@@ -1037,3 +1037,62 @@ a {
 }
 /* Friends */
 /* Friends Page */
+
+/* Files Page */
+/* Files */
+.files-page {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+@media (max-width: 767px) {
+  .files-page {
+    grid-template-columns: minmax(200px, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
+.files-page .files-stats {
+  min-width: 260px;
+}
+.files-pag e.files-stats .icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.files-page .files-stats .size {
+  margin-left: auto;
+}
+.files-page .files-stats .color-blue {
+  background-color: rgb(0 117 255 / 20%);
+}
+.files-page .files-stats .color-green {
+  background-color: rgb(34 197 94 / 20%);
+}
+.files-page .files-stats .color-red {
+  background-color: rgb(244 67 54 / 20%);
+}
+.files-page .files-stats .color-orange {
+  background-color: rgb(245 158 11 / 20%);
+}
+.files-page .files-stats .upload {
+  margin: 15px auto 0;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+.files-page .files-stats .upload:hover {
+  background-color: var(--blue-alt);
+}
+.files-page .files-stats .upload:hover i {
+  animation: go-up 0.8s infinite;
+}
+@keyframes go-up {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+/* Files */
+/* Files Page */
