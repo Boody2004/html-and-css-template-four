@@ -52,6 +52,9 @@
 .p-relative {
   position: relative;
 }
+.p-absolute {
+  position: absolute;
+}
 /* Position */
 
 /* Background Color */
@@ -75,7 +78,7 @@
 }
 /* Background Color */
 
-/* Color */
+/* Text Color */
 .text-white {
   color: #fff;
 }
@@ -95,6 +98,30 @@
   color: var(--red);
 }
 .text-grey {
+  color: var(--grey);
+}
+/* Text Color */
+
+/* Color */
+.color-white {
+  color: #fff;
+}
+.color-black {
+  color: #000;
+}
+.color-blue {
+  color: var(--blue);
+}
+.color-orange {
+  color: var(--orange);
+}
+.color-green {
+  color: var(--green);
+}
+.color-red {
+  color: var(--red);
+}
+.color-grey {
   color: var(--grey);
 }
 /* Color */
